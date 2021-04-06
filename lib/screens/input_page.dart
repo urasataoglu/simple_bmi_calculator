@@ -121,9 +121,6 @@ class _InputPageState extends State<InputPage> {
                       'What is your HEIGHT?',
                       style: kCardTextStyle,
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.baseline,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -175,16 +172,13 @@ class _InputPageState extends State<InputPage> {
                               style: kCardTextStyle,
                             ),
                             SizedBox(
-                              width: 20,
+                              width: 10,
                             ),
                             Icon(
                               FontAwesomeIcons.weight,
                               color: iconColorSwap(),
                             ),
                           ],
-                        ),
-                        SizedBox(
-                          height: 10,
                         ),
                         Text(
                           '$weight',
@@ -226,16 +220,13 @@ class _InputPageState extends State<InputPage> {
                             style: kCardTextStyle,
                           ),
                           SizedBox(
-                            width: 12,
+                            width: 10,
                           ),
                           Icon(
                             FontAwesomeIcons.child,
                             color: iconColorSwap(),
                           ),
                         ],
-                      ),
-                      SizedBox(
-                        height: 10,
                       ),
                       Text(
                         '$age',

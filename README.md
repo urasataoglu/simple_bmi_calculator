@@ -1,6 +1,6 @@
-A new Flutter application.
+ A new Flutter application.
 
-This application helps you to calculate your BMI easily.
+- This application helps you to calculate your BMI easily.
 
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
